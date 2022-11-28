@@ -17,7 +17,7 @@ External Sources
 Data is pulled from Twitter API
 
 
-#Visulization Features
+# Visulization Features
 
 
 
