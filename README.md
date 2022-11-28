@@ -1,4 +1,4 @@
-# dataviscourse-pr-Our-World-in-Tweets
+# Our World in Tweets
 
 Website: 
 
