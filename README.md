@@ -2,11 +2,11 @@
 
 Website: 
 
-# Project Screencast:
+# Project Screencast
 
 Youtube Link: 
 
-# Process Book: 
+# Process Book
 
 
 # Code
