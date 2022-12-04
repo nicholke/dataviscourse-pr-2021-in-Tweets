@@ -13,7 +13,7 @@ Youtube Link:
 External Sources
 
 *  [Dark BaseMap](https://bl.ocks.org/Xatpy/raw/854297419bd7eb3421d0/) used for the black background on world map
-*  [Map Layout] (https://www.openstreetmap.org/copyright) used to create world map locations
+*  [Map Layout](https://www.openstreetmap.org/copyright) used to create world map locations
 
 
 # Data Source
