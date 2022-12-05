@@ -67,6 +67,22 @@ input[type=date]:hover {
     background-color: rgba(29, 161, 242, 0.1);
 }
 
+.video-link {
+    text-align: center;
+    background-color: rgba(29, 161, 242, 0);
+    border-color: white;
+    border-width: 1px;
+    border-radius: 25px;
+    color: #1DA1F2;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.video-link:hover {
+    background-color: rgba(29, 161, 242, 0.1);
+    cursor: pointer;
+}
+
 .trend-item {
     background-color: transparent;
     text-align: center;
