@@ -8,6 +8,8 @@ Youtube Link:
 
 # Process Book
 
+https://github.com/nicholke/dataviscourse-pr-Our-World-in-Tweets/blob/main/Process%20Book.pdf
+
 
 # Code
 External Sources
