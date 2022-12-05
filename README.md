@@ -20,7 +20,7 @@ External Sources
 * Data is pulled from Twitter API and is located in our data folder
 
 
-# Visulization Features
+# Visualization Features
 
 Global Trending Tweets
 * Global trends are represented by a world map and corresponding bubble chart
