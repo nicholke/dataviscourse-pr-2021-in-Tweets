@@ -26,27 +26,70 @@
 </head>
 
 <body style="background-color: black">
-    <div class="header">
+    <div class="tooltip"></div>
+    <div class="header" style="font-size: 25px;
+    border:3px solid #1DA1F2; border-radius: 100px;
+    width: 700px; margin: auto;
+    margin-top: 50px">
         <h1>Our world in tweets</h1>
     </div>
-    <div id="page1">
-                <a href="#" onclick="return show('page2','page1');">Show page 2</a>
-                <div class="header">
-                    <h1>Trend tracker</h1>
+            <div class="header" style="margin: 200px 200px 50px;">
+                <h1>Social media has revolutionized the way we communicate, allowing us to share
+                thoughts and media about the trends that we feel matter most. This has generated loads of
+                data on what people all over the world are passionate about. We collected just a sliver
+                of what's possible in Twitter data to see what people cared about most in November 2022,
+                    and where. Scroll down to learn more.
+                </h1>
+            </div>
+            <div id="wrapper" style="margin-top: 150px">
+                <div id="wrapper-inner">
+                    <div id="scroll-down">
+                      <span class="arrow-down">
+                      <!-- css generated icon -->
+                      </span>
+                    </div>
                 </div>
-                <div id="content" class="grid-container">
-                    <svg id="bubble-chart">
-                    </svg>
-                    <div id="map"></div>
-                    <script src="js/mapScript.js"></script>
+            </div>
+            <div class="header" style="margin-top: 150px; margin-bottom: 50px">
+                <h1><span class="blinking-cursor">|</span><span style="color: darkgray">What's happening?</span></h1>
+                <h1><span id="country-label" style="color: #1DA1F2">The entire world</span> tweeted most about
+                    <span id="top-trend-label" style="color: #1DA1F2"></span>
+                    on
+                    <span id="date-label" style="color: #1DA1F2">11.09.2022 </span>
+                </h1>
+                <input type="date" min="2022-11-09" max="2022-11-30" id="tweet-dates" value="2022-11-09">
+            </div>
+            <div id="content" class="grid-container">
+                <svg id="bubble-chart">
+                </svg>
+                <div id="map"></div>
+                <script src="js/mapScript.js"></script>
+            </div>
+            <div id="wrapper" style="margin-top: 150px">
+                <div id="wrapper-inner">
+                    <div id="scroll-down">
+                              <span class="arrow-down">
+                              <!-- css generated icon -->
+                              </span>
+                    </div>
                 </div>
-    </div>
-    <div id="page2" style="display: none">
-        <a href="#" onclick="return show('page1','page2');">Show page 1</a>
-        <div class="header">
-            <h1>Time-series empty slot</h1>
-        </div>
-    </div>
+            </div>
+            <div class="header" style="margin: 150px 200px 50px;">
+                <h1><span style="color: darkgray">#HowsItHoldingUp</span></h1>
+                <h1>We took the <span style="color: #1DA1F2">top 20 global</span> trends from the
+                    <span style="color: #1DA1F2">first week of our data collection</span> and put together time-series data on them to get an idea
+                of how well trends held up throughout the month. Are Twitter trends just quick fads or something more?</h1>
+            </div>
+            <div>
+                <svg id="line-chart" width="1300" height="600" style="display: block; margin: auto">
+                    <g id="x-axis"></g>
+                    <g id="y-axis"></g>
+                    <g id="lines"></g>
+                    <g id="overlay"><line></line></g>
+                </svg>
+            </div>
+            <div id="trend-buttons">
+            </div>
 </body>
 
 </html>
