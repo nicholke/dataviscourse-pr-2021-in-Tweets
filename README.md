@@ -4,7 +4,7 @@ Website: https://nicholke.github.io/dataviscourse-pr-Our-World-in-Tweets/
 
 # Project Screencast
 
-Youtube Link: <iframe width="560" height="315" src="https://www.youtube.com/embed/Fhpq2__YXOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube Link: https://youtu.be/Fhpq2__YXOU
 
 # Process Book
 
